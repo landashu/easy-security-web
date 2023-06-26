@@ -42,7 +42,7 @@ jobs:
       #     ./upx sync dist/ / --delete
       #     ./upx logout
 
-      # 发布到 gh-page 分支
+      # 发布到 gh-page分支
       - name: Deploy github
         uses: peaceiris/actions-gh-pages@v3
         with:
