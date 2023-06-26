@@ -10,43 +10,21 @@ env: # 设置环境变量
   TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
 
 jobs:
-  build:
-    runs-on: ubuntu-latest # 运行在虚拟机环境ubuntu-latest
-
+  build-and-deploy:
+    runs-on: ubuntu-latest
     steps:
-      # 检出
-      - name: Checkout
-        uses: actions/checkout@v2
-
-        # 安装 node
-      - name: Setup Node
+      - uses: actions/checkout@v3
+      - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
-          registry-url: "https://registry.npmjs.org"
-          # cache: "yarn"
-
-        # 构建
-      - name: Build
-        run: |
-          yarn install
-          yarn build
-
-        # 同步到又拍云
-      # - name: Deploy upyun
-      #   run: |
-      #     wget -O upx.tar.gz http://collection.b0.upaiyun.com/softwares/upx/upx_0.3.6_linux_x86_64.tar.gz
-      #     tar -zxf upx.tar.gz
-      #     chmod +x upx
-      #     ./upx login ${{ secrets.UP_BUCKET }} ${{ secrets.UP_OPERATOR }} ${{ secrets.UP_OPERATOR_PASSWORD }}
-      #     ./upx sync dist/ / --delete
-      #     ./upx logout
-
-      # 发布到 gh-page 分支
-      - name: Deploy github
-        uses: peaceiris/actions-gh-pages@v3
+          node-version: "14.x"
+      - run: node -v
+      - run: npm install
+      - run: npm run build
+      - name: Deploy # 部署
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          publish_dir: ./dist
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
+          branch: gh-pages # 部署后提交到那个分支
+          folder: dist # 这里填打包好的目录名称
+
+
