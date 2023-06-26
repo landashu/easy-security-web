@@ -44,7 +44,7 @@ jobs:
       #     ./upx sync dist/ / --delete
       #     ./upx logout
 
-      # 发布到 gh-page 分支
+      # 发布到 gh-page分支
       - name: Deploy github
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
