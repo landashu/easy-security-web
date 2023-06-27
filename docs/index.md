@@ -29,22 +29,18 @@ simplePostListLength: 0 # 简约版文章列表显示的文章数量，默认10�
 hideRightBar: true # 是否隐藏右侧边栏
 ---
 
-[//]: # (## ✨ 当前最新版本1)
+## ✨ 当前最新版本
 
-[//]: # ()
-[//]: # (```html)
 
-[//]: # (<dependency>)
+```
+<dependency>
+  <groupId>com.aizuda</groupId>
+  <artifactId>easy-security-boot-starte</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
-[//]: # (  <groupId>com.aizuda.easy-security</groupId>)
 
-[//]: # (  <artifactId>easy-security-boot-starter</artifactId>)
-
-[//]: # (  <version>${Latest Version}</version>)
-
-[//]: # (</dependency>)
-
-[//]: # (```)
 
 
 ## 🤝 aizuda 组织项目
