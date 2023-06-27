@@ -72,7 +72,7 @@ export default <VdoingThemeConfig>{
   },
   footer: {
     // 页脚信息, 请根据实际情况修改, 删掉不需要的部分
-    createYear: 2022, // 博客创建年份
+    createYear: 2023, // 博客创建年份
     copyrightInfo: `
 <!--      <a href='https://doc.xugaoyi.com/' target='_blank'>Theme by Vdoing</a> | <a href='http://doc.aizuda.com/' rel='external nofollow' target='_blank'>Copyright © 2022-2023 AiZuDa</a>-->
 <!--      <br>-->
