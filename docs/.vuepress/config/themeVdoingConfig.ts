@@ -75,8 +75,8 @@ export default <VdoingThemeConfig>{
     createYear: 2022, // 博客创建年份
     copyrightInfo: `
 <!--      <a href='https://doc.xugaoyi.com/' target='_blank'>Theme by Vdoing</a> | <a href='http://doc.aizuda.com/' rel='external nofollow' target='_blank'>Copyright © 2022-2023 AiZuDa</a>-->
-      <br>
-      <a href="http://beian.miit.gov.cn/" target="_blank">鲁ICP备2021041554号-1</a>
+<!--      <br>-->
+<!--      <a href="http://beian.miit.gov.cn/" target="_blank">鲁ICP备2021041554号-1</a>-->
     `, // 博客版权信息，支持a标签
   },
 };
