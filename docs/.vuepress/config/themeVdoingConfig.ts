@@ -53,16 +53,11 @@ export default <VdoingThemeConfig>{
   social: {
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
-      // {
-      //   iconClass: "icon-QQ",
-      //   title: "QQ",
-      //   link: "/assets/html/qq-groups.html",
-      // },
-      // {
-      //   iconClass: "icon-bilibili",
-      //   title: "哔哩哔哩",
-      //   link: "https://space.bilibili.com/28474682",
-      // },
+      {
+        iconClass: "icon-gitee",
+        title: "gitee",
+        link: "https://gitee.com/aizuda/easy-security",
+      },
       {
         iconClass: "icon-github",
         title: "GitHub",
