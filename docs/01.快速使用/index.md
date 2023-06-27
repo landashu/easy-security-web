@@ -30,9 +30,9 @@ easy-security 结合了Yapi的使用，如果你使用Yapi需要在自己的项�
 ### 第一步 添加依赖
 ```
 <dependency>
-  <groupId>com.aizuda.easy-security</groupId>
+  <groupId>com.aizuda</groupId>
   <artifactId>easy-security-boot-starter</artifactId>
-  <version>${Latest Version}</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
