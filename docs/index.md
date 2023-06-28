@@ -49,6 +49,7 @@ hideRightBar: true # 是否隐藏右侧边栏
   <a href="http://aizuda.com?from=mp" target="_blank"><img height="70" width="224" src="./.vuepress/public/assets/img/aizuda.png" class="no-zoom"></a>
   <a href="https://baomidou.com/" target="_blank"><img src="https://www.easy-es.cn/img/external/mp.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
   <a href="http://map.aizuda.com/" target="_blank"><img src="./.vuepress/public/assets/img/map-gis.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
+  <a href="http://stream-query.dromara.org/" target="_blank"><img src="./.vuepress/public/assets/img/Stream-Query.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
 ## ⚡ 反馈与交流
