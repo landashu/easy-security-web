@@ -54,9 +54,9 @@ hideRightBar: true # 是否隐藏右侧边栏
 ## ⚡ 反馈与交流
 在使用过程中有任何问题和想法，请给我提 <a href="https://github.com/aizuda/easy-security/issues" target="_blank" rel="noopener noreferrer">Issue</a>。 你也可以在Issue查看别人提的问题和给出解决方案。或者加入我们的交流群：
 
-<div align="center" style="margin: auto">
+<div align="center">
   <img src="./.vuepress/public/assets/img/mecode.png" width="100" class="no-zoom">
 </div>
-<div style="margin-top: 15px;margin: auto;width: 440px">
+<div align="center" style="margin-top: 25px;width: 100%">
   Easy-Security微信群（添加我微信备注"Easy-Security进群"）
 </div>
