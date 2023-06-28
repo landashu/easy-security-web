@@ -48,7 +48,7 @@ hideRightBar: true # 是否隐藏右侧边栏
   <a href="http://map.aizuda.com/" target="_blank"><img src="./.vuepress/public/assets/img/map-gis.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
-## 🧲 aizuda 友情链接
+## 🧲 友情链接
 
 <div style="display: flex;flex-wrap: wrap">
   <a href="http://stream-query.dromara.org/" target="_blank"><img src="./.vuepress/public/assets/img/Stream-Query.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
