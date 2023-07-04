@@ -35,7 +35,7 @@ hideRightBar: true # 是否隐藏右侧边栏
 <dependency>
   <groupId>com.aizuda</groupId>
   <artifactId>easy-security-boot-starter</artifactId>
-  <version>2.0.1</version>
+  <version>2.0.2</version>
 </dependency>
 ```
 

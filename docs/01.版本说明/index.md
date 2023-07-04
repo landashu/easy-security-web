@@ -8,6 +8,9 @@ comment: false # 评论区
 editLink: false
 ---
 
+## ![easy-security 2.0.2](https://img.shields.io/badge/releases-v2.0.2-brightgreen)
+1. 解决特殊路径未在Req放行
+
 ## ![easy-security 2.0.1](https://img.shields.io/badge/releases-v2.0.1-brightgreen)
 1. 修改认证放行不生效问题
 2. 修改鉴权放行不生效问题
