@@ -8,12 +8,12 @@ comment: false # 评论区
 editLink: false
 ---
 
-## easy-security 2.0.0
+## ![easy-security 2.0.0](https://img.shields.io/badge/releases-V2.0.0-brightgreen)
 这一版我们做了很伟大的事情，改变了架构，并支持了功能扩展，详细如下：
 1. 整体架构改变，从多链路过滤器改为单链路过滤器
 2. 提供 FunctionHandler 接口，方便功能扩展
 3. 对加密接口CiphertextServer进行重构，直接重写加密
 4. 对 RequestWrapper 等类进行重命名
 
-## easy-security 1.0.0
+## ![easy-security 1.0.0](https://img.shields.io/badge/releases-V1.0.0-brightgreen)
 初版

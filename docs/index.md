@@ -31,7 +31,6 @@ hideRightBar: true # 是否隐藏右侧边栏
 
 ## ✨ 当前最新版本
 
-
 ```
 <dependency>
   <groupId>com.aizuda</groupId>
