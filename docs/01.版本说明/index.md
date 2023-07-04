@@ -8,6 +8,10 @@ comment: false # 评论区
 editLink: false
 ---
 
+## ![easy-security 2.0.1](https://img.shields.io/badge/releases-v2.0.1-brightgreen)
+1. 修改人证放行不生效问题
+2. 修改鉴权放行不生效问题
+
 ## ![easy-security 2.0.0](https://img.shields.io/badge/releases-V2.0.0-brightgreen)
 这一版我们做了很伟大的事情，改变了架构，并支持了功能扩展，详细如下：
 1. 整体架构改变，从多链路过滤器改为单链路过滤器
