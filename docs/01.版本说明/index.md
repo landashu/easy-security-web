@@ -9,7 +9,7 @@ editLink: false
 ---
 
 ## ![easy-security 2.0.1](https://img.shields.io/badge/releases-v2.0.1-brightgreen)
-1. 修改人证放行不生效问题
+1. 修改认证放行不生效问题
 2. 修改鉴权放行不生效问题
 
 ## ![easy-security 2.0.0](https://img.shields.io/badge/releases-V2.0.0-brightgreen)
