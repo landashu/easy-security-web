@@ -4,7 +4,7 @@ heroImage: /assets/img/logo.png
 heroText: Easy-Security
 tagline: 简单易用的鉴权框架 只需四步完成使用
 actionText: 快速开始 →
-actionLink: /apply/
+actionLink: /guide/11/
 bannerBg: none
 
 
@@ -36,7 +36,7 @@ hideRightBar: true # 是否隐藏右侧边栏
 <dependency>
   <groupId>com.aizuda</groupId>
   <artifactId>easy-security-boot-starter</artifactId>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 
@@ -56,11 +56,20 @@ hideRightBar: true # 是否隐藏右侧边栏
   <a href="https://www.mtruning.club/" target="_blank"><img src="./.vuepress/public/assets/img/goView.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
+## 👑 有关安全
+我们已接入OSCS墨菲安全扫描，easy-security 源码中未被扫描出任何风险项，并且框架采用 Apache2.0 许可协议，确保人畜无害！ 大家可放心使用，当然如果您仍不放心，我们推荐您在使用前下载 easy-security 源码亲自阅读一番，我们是 100% 开源，是否有风险您一看便知。
+
+<a href="https://www.murphysec.com/console/report/1669509011156525056/1675773981414416384" alt="Security Status">
+  <img src="https://www.murphysec.com/platform3/v31/badge/1675773981414416384.svg" class="no-zoom" />
+</a>
+
+
 ## ⚡ 反馈与交流
 在使用过程中有任何问题和想法，请给我提 <a href="https://github.com/aizuda/easy-security/issues" target="_blank" rel="noopener noreferrer">Issue</a>。 你也可以在Issue查看别人提的问题和给出解决方案。或者加入我们的交流群：
 
 <div align="center">
   <img src="./.vuepress/public/assets/img/mecode.png" width="100" class="no-zoom">
+  <img src="./.vuepress/public/assets/img/qunCode.png" width="100" class="no-zoom">
 </div>
 <div align="center" style="margin-top: 25px;width: 100%">
   Easy-Security微信群（添加我微信备注"Easy-Security进群"）
