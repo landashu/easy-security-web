@@ -37,7 +37,7 @@ export default <VdoingThemeConfig>{
   // pageButton: false, // 是否显示快捷翻页按钮，默认true
 
   sidebarOpen: true, // 初始状态是否打开侧边栏，默认true
-  sidebar: { mode: "structuring", collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
+  sidebar: { mode: "structuring", collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
 
   extendFrontmatter: {
     article:false
