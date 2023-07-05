@@ -43,9 +43,6 @@ hideRightBar: true # 是否隐藏右侧边栏
 
 <div style="display: flex;flex-wrap: wrap">
   <a href="http://aizuda.com?from=mp" target="_blank"><img src="./.vuepress/public/assets/img/aizuda.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
-
-[//]: # (  <a href="http://map.aizuda.com/" target="_blank"><img src="./.vuepress/public/assets/img/map-gis.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>)
-
   <a href="https://www.easyretry.com/" target="_blank"><img src="./.vuepress/public/assets/img/easy-retry.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
