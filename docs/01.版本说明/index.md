@@ -7,6 +7,12 @@ article: false # 是否未非文章页，非文章不显示 面包屑和作者�
 comment: false # 评论区
 editLink: false
 ---
+## ![easy-security 2.0.3](https://img.shields.io/badge/EasySecurity-v2.0.3-yellow)
+1. 优化 handler 先后顺序
+2. 优化解密逻辑
+3. 解决加解密数据类型不匹配问题
+4. 更换 ReqDataHandler 和 DecryptPathHandler 优先级，先解密后封装
+5. 解耦加解密，可以自定义加解密逻辑
 
 ## ![easy-security 2.0.2](https://img.shields.io/badge/EasySecurity-v2.0.2-yellow)
 1. 解决特殊路径未在Req放行
