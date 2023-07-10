@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/img/logo.png
 heroText: Easy-Security
-tagline: 简单易用的鉴权框架 只需四步完成使用
+tagline: 简单易用的鉴权框架 只需几步完成使用
 actionText: 快速开始 →
 actionLink: /guide/11/
 bannerBg: none
@@ -10,15 +10,15 @@ bannerBg: none
 
 features: # 可选的
 - title: 为简而生
-  details: 极具核心的思想、超简的结构设计理念、轻量、方便
+  details: 极具核心的思想、超简的结构设计理念、轻量、方便、无依赖
   # link: /web/ # 可选
   # imgUrl: /img/web.png # 可选
 - title: 分布式支持
-  details: 天然支持微服务分布式项目
+  details: 天然支持微服务分布式项目，无需额外配置开箱即用
   # link: /ui/
   # imgUrl: /img/ui.png
 - title: 组织生态
-  details: 背靠 aizuda 组织，生态多样
+  details: 背靠 aizuda 组织，全栈项目，生态多样
   # link: /technology/
   # imgUrl: /img/other.png
 
@@ -35,9 +35,13 @@ hideRightBar: true # 是否隐藏右侧边栏
 <dependency>
   <groupId>com.aizuda</groupId>
   <artifactId>easy-security-boot-starter</artifactId>
-  <version>2.0.2</version>
+  <version>2.0.3</version>
 </dependency>
 ```
+::: tip
+当你下载依赖失败，可能是由于依赖还没有审核通过，你可以在 maven 仓库找低于当前版本的依赖使用
+:::
+
 
 ## 🤝 aizuda 组织项目
 
