@@ -50,6 +50,11 @@ hideRightBar: true # 是否隐藏右侧边栏
   <a href="https://www.easyretry.com/" target="_blank"><img src="./.vuepress/public/assets/img/easy-retry.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
+## 版本兼容
+|   java    |  spring   | easy-security  |
+|:---------:|:---------:|:--------------:|
+|   java8   |   2.7.x   |     2.0.x      | 
+
 ## 🧲 友情链接
 
 <div style="display: flex;flex-wrap: wrap">
