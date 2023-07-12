@@ -7,6 +7,11 @@ article: false # 是否未非文章页，非文章不显示 面包屑和作者�
 comment: false # 评论区
 editLink: false
 ---
+
+## ![easy-security 2.0.4](https://img.shields.io/badge/EasySecurity-v2.0.4-yellow)
+1. 去掉 SpecialPathHandler 类，改为方法
+2. 只要是 Special 路径，不会做 req 和 rep 的任何处理
+
 ## ![easy-security 2.0.3](https://img.shields.io/badge/EasySecurity-v2.0.3-yellow)
 1. 优化 handler 先后顺序
 2. 优化解密逻辑

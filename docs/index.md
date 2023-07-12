@@ -35,13 +35,17 @@ hideRightBar: true # 是否隐藏右侧边栏
 <dependency>
   <groupId>com.aizuda</groupId>
   <artifactId>easy-security-boot-starter</artifactId>
-  <version>2.0.3</version>
+  <version>2.0.4</version>
 </dependency>
 ```
 ::: tip
 当你下载依赖失败，可能是由于依赖还没有审核通过，你可以在 maven 仓库找低于当前版本的依赖使用
 :::
 
+## 版本兼容关系
+|   java    |  spring   | easy-security  |
+|:---------:|:---------:|:--------------:|
+|   java8   |   2.7.x   |     2.0.x      | 
 
 ## 🤝 aizuda 组织项目
 
@@ -49,11 +53,6 @@ hideRightBar: true # 是否隐藏右侧边栏
   <a href="http://aizuda.com?from=mp" target="_blank"><img src="./.vuepress/public/assets/img/aizuda.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
   <a href="https://www.easyretry.com/" target="_blank"><img src="./.vuepress/public/assets/img/easy-retry.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
-
-## 版本兼容
-|   java    |  spring   | easy-security  |
-|:---------:|:---------:|:--------------:|
-|   java8   |   2.7.x   |     2.0.x      | 
 
 ## 🧲 友情链接
 
