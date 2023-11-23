@@ -66,6 +66,7 @@ hideRightBar: true # 是否隐藏右侧边栏
   <a href="https://gitee.com/anwena/mongo-plus" target="_blank"><img src="./.vuepress/public/assets/img/mongoplus.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
   <a href="https://www.bbossgroups.com/" target="_blank"><img src="./.vuepress/public/assets/img/bboss.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
   <a href="https://www.brath.cn" target="_blank"><img src="./.vuepress/public/assets/img/lizhi.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
+  <a href="https://easymt.gitee.io/" target="_blank"><img src="https://foruda.gitee.com/images/1700011128476731001/863532e8_12260.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
 ## 👑 有关安全
