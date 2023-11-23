@@ -54,7 +54,8 @@ hideRightBar: true # 是否隐藏右侧边栏
 <div style="display: flex;flex-wrap: wrap">
   <a href="http://aizuda.com?from=mp" target="_blank"><img src="./.vuepress/public/assets/img/aizuda.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
   <a href="https://www.easyretry.com/" target="_blank"><img src="./.vuepress/public/assets/img/easy-retry.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
-<a href="https://flowlong.gitee.io/" target="_blank"><img src="./.vuepress/public/assets/img/flowlong.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
+  <a href="https://flowlong.gitee.io/" target="_blank"><img src="./.vuepress/public/assets/img/flowlong.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
+  <a href="https://easymt.gitee.io/" target="_blank"><img src="https://foruda.gitee.com/images/1700011128476731001/863532e8_12260.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
 ## 🧲 友情链接
@@ -66,7 +67,6 @@ hideRightBar: true # 是否隐藏右侧边栏
   <a href="https://gitee.com/anwena/mongo-plus" target="_blank"><img src="./.vuepress/public/assets/img/mongoplus.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
   <a href="https://www.bbossgroups.com/" target="_blank"><img src="./.vuepress/public/assets/img/bboss.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
   <a href="https://www.brath.cn" target="_blank"><img src="./.vuepress/public/assets/img/lizhi.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
-  <a href="https://easymt.gitee.io/" target="_blank"><img src="https://foruda.gitee.com/images/1700011128476731001/863532e8_12260.png" class="no-zoom" style="height:40px;max-width:150px;margin:10px;"></a>
 </div>
 
 ## 👑 有关安全
