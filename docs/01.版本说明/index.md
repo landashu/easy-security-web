@@ -10,6 +10,10 @@ editLink: false
 
 ## 3.x
 
+### ![easy-security 3.1.1](https://img.shields.io/badge/EasySecurity-v3.1.1-yellow)
+1. 支持所有请求
+2. 只针对 Accept 为application/json的做 RepWrapper 处理
+
 ### ![easy-security 3.1.0](https://img.shields.io/badge/EasySecurity-v3.1.0-yellow)
 
 1. 删除Req封装 ，此后在不需要
@@ -24,6 +28,10 @@ editLink: false
 3. 每一个内置 handler 的 index 都预留10个位置，开发者可以在之间进行修改和转换
 
 ## 2.x
+
+### ![easy-security 2.1.0](https://img.shields.io/badge/EasySecurity-v2.1.1-yellow)
+1. 支持所有请求
+2. 只针对 Accept 为application/json的做 RepWrapper 处理
 
 ### ![easy-security 2.1.0](https://img.shields.io/badge/EasySecurity-v2.1.0-yellow)
 
