@@ -36,7 +36,7 @@ hideRightBar: true # 是否隐藏右侧边栏
 <dependency>
   <groupId>com.aizuda</groupId>
   <artifactId>easy-security-boot-starter</artifactId>
-  <version>2.0.4</version>
+  <version>x.x.x</version>
 </dependency>
 ```
 ::: tip
@@ -46,8 +46,8 @@ hideRightBar: true # 是否隐藏右侧边栏
 ## 版本兼容关系
 |  java  | spring | easy-security |  备注  |
 |:------:|:------:|:-------------:|:----:|
-| java8  | 2.7.x  |      2.x      | 已支持  |
-| java17 |  3.x   |      3.x      | 已支持  |
+| java8  | 2.7.x  |     2.1.0     | 已支持  |
+| java17 |  3.x   |     3.1.0     | 已支持  |
 
 ## 🤝 aizuda 组织项目
 

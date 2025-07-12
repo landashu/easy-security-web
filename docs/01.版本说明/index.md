@@ -10,12 +10,28 @@ editLink: false
 
 ## 3.x
 
+### ![easy-security 3.1.0](https://img.shields.io/badge/EasySecurity-v3.1.0-yellow)
+
+1. 删除Req封装，此后在不需要
+2. 删除 projectUrl，不再需要申明是项目路径
+3. 针对非 application/json 数据，body为空，不进行重写
+4. 优化 BasicCode 码
+5. 异常改为不检查异常
+
 ### ![easy-security 3.0.0](https://img.shields.io/badge/EasySecurity-v3.0.0-yellow)
 1. 对标 easy-security 2.0.4 进行对 SpringBoot3.x 的支持
 2. 去掉 forword 方式，换成 handlerExceptionResolver 处理异常，去掉 errorUrl 配置
 3. 每一个内置 handler 的 index 都预留10个位置，开发者可以在之间进行修改和转换
 
 ## 2.x
+
+### ![easy-security 2.1.0](https://img.shields.io/badge/EasySecurity-v2.1.0-yellow)
+
+1. 删除Req封装，此后在不需要
+2. 删除 projectUrl，不再需要申明是项目路径
+3. 针对非 application/json 数据，body为空，不进行重写
+4. 优化 BasicCode 码
+5. 异常改为不检查异常
 
 ### ![easy-security 2.0.4](https://img.shields.io/badge/EasySecurity-v2.0.4-yellow)
 1. 去掉 SpecialPathHandler 类，改为方法
