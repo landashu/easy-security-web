@@ -12,7 +12,7 @@ editLink: false
 
 ### ![easy-security 3.1.0](https://img.shields.io/badge/EasySecurity-v3.1.0-yellow)
 
-1. 删除Req封装，此后在不需要
+1. 删除Req封装 ，此后在不需要
 2. 删除 projectUrl，不再需要申明是项目路径
 3. 针对非 application/json 数据，body为空，不进行重写
 4. 优化 BasicCode 码
