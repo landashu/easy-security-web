@@ -112,3 +112,11 @@ yarn build
 ## 提示
 
 如非必要，请勿删除本说明文件，保留本说明文件可以帮助更多的人。
+
+## github 代理
+开启代理后可以访问网站，但是 pull 不下来，提示ssh 443，可以使用一下方式:
+```shell
+git config --global https.proxy 127.0.0.1:7890
+git config --global http.proxy 127.0.0.1:7890
+```
+7890 为本机的服务端口，window 可以通过在 `网络和 Internet` 中找到 `代理` 选项，会显示代理是否打开，并且会有IP和端口
