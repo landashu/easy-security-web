@@ -9,7 +9,7 @@
     <meta name="description" content="基于过滤器实现的一款配合spring快速开发的安全认证框架，思想是希望通过简单的配置，并且实现核心的方法达到认证和鉴权的目的。">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     
-    <link rel="preload" href="/assets/css/1.styles.7c5aa975.css" as="style"><link rel="preload" href="/assets/js/app.cb5d4bce.js" as="script"><link rel="preload" href="/assets/js/11.4dc0b0e0.js" as="script"><link rel="preload" href="/assets/js/18.29609a16.js" as="script">
+    <link rel="preload" href="/assets/css/1.styles.7c5aa975.css" as="style"><link rel="preload" href="/assets/js/app.2ab68ef4.js" as="script"><link rel="preload" href="/assets/js/11.4dc0b0e0.js" as="script"><link rel="preload" href="/assets/js/18.512603fc.js" as="script">
     <link rel="stylesheet" href="/assets/css/1.styles.7c5aa975.css">
   </head>
   <body class="theme-mode-light">
@@ -62,8 +62,7 @@ public class UserController implements EasySecurityServer {
 }
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><h2 id="登录及获取用户"><a href="#登录及获取用户" class="header-anchor">#</a> 登录及获取用户</h2> <p>登录的 Token 是要返回给前端的，然后前端每次访问的时候都要带上 token 访问，这个 token 要放到请求头里，以 'token' 做为属性</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 模拟登录，登录成功会给前端token，前端需要把token放在Headers中
 @PostMapping(&quot;/login&quot;)
-public Rep&lt;UserVO&gt; login(@RequestBody Req&lt;UserDTO,UserVO&gt; req){
-    UserDTO userDTO = req.getData();
+public Rep&lt;UserVO&gt; login(@RequestBody UserDT userDTO){
     if(StrUtil.isEmpty(userDTO.getAccount()) || StrUtil.isEmpty(userDTO.getPassword())){
         return Rep.error(500,&quot;账号或密码错误&quot;);
     }
@@ -82,14 +81,14 @@ public Rep&lt;UserVO&gt; login(@RequestBody Req&lt;UserDTO,UserVO&gt; req){
     return Rep.ok(userVO);
 }
 
-// Req&lt;T,U&gt; 第一个参数为前端所传参数，第二个为后端会获取到的用户数据，
+//
 @PostMapping(&quot;/selectInfo&quot;)
 public Rep&lt;UserEntity&gt; selectInfo(@RequestBody UserDTO data){
     UserVO userVO = LocalUtil.getUser();
     UserEntity user = db.stream().filter(i -&gt; i.getId().equals(userVO.getId())).findAny().get();
     return Rep.ok(user);
 }
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div></div></div> <!----> <div class="page-edit"><!----> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">7/12/2025, 7:34:03 PM</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/guide/10/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">简介</div></a> <a href="/guide/12/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">配置介绍</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div></div></div> <!----> <div class="page-edit"><!----> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">7/29/2025, 4:32:47 PM</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/guide/10/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">简介</div></a> <a href="/guide/12/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">配置介绍</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
         ←
         <a href="/guide/10/" class="prev">简介</a></span> <span class="next"><a href="/guide/12/">配置介绍</a>→
       </span></p></div></div></div> <!----></main></div> <div class="footer"><div class="icons"><a href="https://gitee.com/aizuda/easy-security" title="gitee" target="_blank" class="iconfont icon-gitee"></a><a href="https://github.com/aizuda" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="mailto:875730567@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a></div> 
@@ -109,6 +108,6 @@ public Rep&lt;UserEntity&gt; selectInfo(@RequestBody UserDTO data){
         </li><li class="iconfont icon-yuedu">
           阅读模式
         </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.cb5d4bce.js" defer></script><script src="/assets/js/11.4dc0b0e0.js" defer></script><script src="/assets/js/18.29609a16.js" defer></script>
+    <script src="/assets/js/app.2ab68ef4.js" defer></script><script src="/assets/js/11.4dc0b0e0.js" defer></script><script src="/assets/js/18.512603fc.js" defer></script>
   </body>
 </html>
