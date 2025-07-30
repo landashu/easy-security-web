@@ -10,6 +10,9 @@ editLink: false
 
 ## 3.x
 
+### ![easy-security 3.1.2](https://img.shields.io/badge/EasySecurity-v3.1.2-yellow)
+1. reset() 换成 resetBuffer()
+
 ### ![easy-security 3.1.1](https://img.shields.io/badge/EasySecurity-v3.1.1-yellow)
 1. 支持所有请求
 2. 只针对 Accept 为application/json的做 RepWrapper 处理
