@@ -58,11 +58,11 @@ export default <VdoingThemeConfig>{
         title: "gitee",
         link: "https://gitee.com/aizuda/easy-security",
       },
-      {
-        iconClass: "icon-github",
-        title: "GitHub",
-        link: "https://github.com/aizuda",
-      },
+      // {
+      //   iconClass: "icon-github",
+      //   title: "GitHub",
+      //   link: "https://github.com/aizuda",
+      // },
       {
         iconClass: "icon-youjian",
         title: "发邮件",
